@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+*{margin: 0;padding: 0;background-color: rgb(255, 255, 255);}
+.navBar{
+    height: 1.5cm;
+    background-color: #e7eb0e;
+    font-family: 'ubuntu';
+    font-weight: bolder;
+    color: white;
+    font-size: 21px;
+  }
+  img{
+    height: 1.5cm;
+    background-color: #e7eb0e;
+    margin-left: 20px;
+  }
+  .inputDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .inputBox{
+    height: 70px;
+    width: 380px;
+    margin-top: 1.7cm;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+    box-shadow: 5px 5px 7px grey;
+  }
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+  .input1{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+    font-size: 200%;
+    width: 500px;
+    font-weight: bolder;
+  }
+  .input2{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .afterClick{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 30px;
+    box-shadow: 5px 5px 7px grey;
+  }
+  .createNote{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 40px;
+    color:rgb(238, 187, 18);
+    margin-left: 420px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  .note{
+    width:300px;
+    height: auto;
+    box-shadow: 3px 2px 6px rgb(151, 150, 150);
+    margin-top: 9px;
+    margin-left: 30px;
+    
+  }
+  textarea{
+    width: 280px;
+    border-style: none;
+  }
+  .noteDeleteButton{
+    border-style: none;
+    color: rgb(214, 14, 14);
+    margin-left: 277px;
+  }
+  .noteContainer{
+    display: flex;
+  }
+  .margin{
+    margin-left: 7px;
+  }
+ 
